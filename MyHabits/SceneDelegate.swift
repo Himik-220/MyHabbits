@@ -61,9 +61,9 @@ func CreateHabitsViewController() -> UINavigationController {
 }
 
 func CreateInfoViewController() -> UIViewController {
-  let vc = InfoViewController()
-  vc.tabBarItem = UITabBarItem(title: "Информация", image: UIImage(systemName: "info.circle.fill"), tag: 1)
-  return vc
+  let nvc = UINavigationController(rootViewController: InfoViewController())
+  nvc.tabBarItem = UITabBarItem(title: "Информация", image: UIImage(systemName: "info.circle.fill"), tag: 1)
+  return nvc
 }
 
 func createTabBarController() -> UITabBarController {

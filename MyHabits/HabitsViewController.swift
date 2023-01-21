@@ -11,6 +11,7 @@ class HabitsViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    view.backgroundColor = .systemBackground
     let addButton = UIBarButtonItem(title: nil, image: UIImage(systemName: "plus"), target: self, action: #selector(addHabits))
     navigationItem.rightBarButtonItem = addButton
   }

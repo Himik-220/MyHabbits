@@ -14,6 +14,7 @@
 		7D32D5A929773CBA0008A026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D32D5A729773CBA0008A026 /* LaunchScreen.storyboard */; };
 		7D60FDE8297C051200E931AB /* HabitsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60FDE7297C051200E931AB /* HabitsStore.swift */; };
 		7D60FDEA297C064F00E931AB /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60FDE9297C064F00E931AB /* InfoViewController.swift */; };
+		7D60FDED297C10A500E931AB /* InfoUIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60FDEC297C10A500E931AB /* InfoUIScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7D32D5AA29773CBA0008A026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D60FDE7297C051200E931AB /* HabitsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsStore.swift; sourceTree = "<group>"; };
 		7D60FDE9297C064F00E931AB /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		7D60FDEC297C10A500E931AB /* InfoUIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoUIScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +63,22 @@
 				7D32D59C29773CBA0008A026 /* AppDelegate.swift */,
 				7D32D59E29773CBA0008A026 /* SceneDelegate.swift */,
 				7D32D5A029773CBA0008A026 /* HabitsViewController.swift */,
-				7D60FDE9297C064F00E931AB /* InfoViewController.swift */,
+				7D60FDEB297C107F00E931AB /* Info */,
 				7D60FDE7297C051200E931AB /* HabitsStore.swift */,
 				7D32D5A529773CBA0008A026 /* Assets.xcassets */,
 				7D32D5A729773CBA0008A026 /* LaunchScreen.storyboard */,
 				7D32D5AA29773CBA0008A026 /* Info.plist */,
 			);
 			path = MyHabits;
+			sourceTree = "<group>";
+		};
+		7D60FDEB297C107F00E931AB /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				7D60FDE9297C064F00E931AB /* InfoViewController.swift */,
+				7D60FDEC297C10A500E931AB /* InfoUIScrollView.swift */,
+			);
+			path = Info;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D60FDE8297C051200E931AB /* HabitsStore.swift in Sources */,
+				7D60FDED297C10A500E931AB /* InfoUIScrollView.swift in Sources */,
 				7D32D5A129773CBA0008A026 /* HabitsViewController.swift in Sources */,
 				7D32D59D29773CBA0008A026 /* AppDelegate.swift in Sources */,
 				7D32D59F29773CBA0008A026 /* SceneDelegate.swift in Sources */,
