@@ -54,21 +54,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 }
 
-func createFeedNavigationController() -> UINavigationController {
-  let nvc = UINavigationController(rootViewController: ViewController())
-  nvc.tabBarItem = UITabBarItem(title: "Feed", image: UIImage(systemName: "doc.text"), tag: 0)
+func CreateHabitsViewController() -> UINavigationController {
+  let nvc = UINavigationController(rootViewController: HabitsViewController())
+  nvc.tabBarItem = UITabBarItem(title: "Привычки", image: UIImage(systemName: "rectangle.grid.1x2.fill"), tag: 0)
   return nvc
 }
 
-func createLogInNavigationViewController() -> UINavigationController {
-  let nvc = UINavigationController(rootViewController: ViewController())
-  nvc.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person.circle"), tag: 1)
-  nvc.navigationBar.isHidden = true
-  return nvc
+func CreateInfoViewController() -> UIViewController {
+  let vc = InfoViewController()
+  vc.tabBarItem = UITabBarItem(title: "Информация", image: UIImage(systemName: "info.circle.fill"), tag: 1)
+  return vc
 }
 
 func createTabBarController() -> UITabBarController {
   let tabBar = UITabBarController()
-  tabBar.viewControllers = [createFeedNavigationController(), createLogInNavigationViewController()]
+  tabBar.viewControllers = [CreateHabitsViewController(), CreateInfoViewController()]
   return tabBar
 }
