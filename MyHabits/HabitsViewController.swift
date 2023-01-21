@@ -8,9 +8,14 @@
 import UIKit
 
 class HabitsViewController: UIViewController {
-
+  
   override func viewDidLoad() {
     super.viewDidLoad()
+    let addButton = UIBarButtonItem(title: nil, image: UIImage(systemName: "plus"), target: self, action: #selector(addHabits))
+    navigationItem.rightBarButtonItem = addButton
+  }
+  
+  @objc func addHabits() {
     
   }
 }
