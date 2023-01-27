@@ -12,6 +12,7 @@ class AddHabitsViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     self.title = "Создать"
+    view.backgroundColor = .systemBackground
     view.addSubview(AddHabirsUIScrollView())
   }
 }
