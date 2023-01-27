@@ -21,6 +21,7 @@ class AddHabirsUIScrollView: UIScrollView {
     textField.placeholder = "Бегать по утрам, спать 8 часов и т.п."
     textField.font = UIFont.systemFont(ofSize: 17)
     textField.translatesAutoresizingMaskIntoConstraints = false
+    textField.returnKeyType = .done
     return textField
   }()
   
