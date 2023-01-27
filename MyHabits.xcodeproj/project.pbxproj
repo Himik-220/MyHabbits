@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D0983B329844F2E009419A7 /* AddHabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0983B229844F2E009419A7 /* AddHabitsViewController.swift */; };
+		7D0983B529844F3C009419A7 /* AddHabirsUIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0983B429844F3C009419A7 /* AddHabirsUIScrollView.swift */; };
 		7D32D59D29773CBA0008A026 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D32D59C29773CBA0008A026 /* AppDelegate.swift */; };
 		7D32D59F29773CBA0008A026 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D32D59E29773CBA0008A026 /* SceneDelegate.swift */; };
 		7D32D5A129773CBA0008A026 /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D32D5A029773CBA0008A026 /* HabitsViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D0983B229844F2E009419A7 /* AddHabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitsViewController.swift; sourceTree = "<group>"; };
+		7D0983B429844F3C009419A7 /* AddHabirsUIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabirsUIScrollView.swift; sourceTree = "<group>"; };
 		7D32D59929773CBA0008A026 /* MyHabits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHabits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D32D59C29773CBA0008A026 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D32D59E29773CBA0008A026 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D0983AF29844F05009419A7 /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				7D32D5A029773CBA0008A026 /* HabitsViewController.swift */,
+				7D0983B229844F2E009419A7 /* AddHabitsViewController.swift */,
+				7D0983B429844F3C009419A7 /* AddHabirsUIScrollView.swift */,
+			);
+			path = Habits;
+			sourceTree = "<group>";
+		};
 		7D32D59029773CBA0008A026 = {
 			isa = PBXGroup;
 			children = (
@@ -62,7 +76,7 @@
 			children = (
 				7D32D59C29773CBA0008A026 /* AppDelegate.swift */,
 				7D32D59E29773CBA0008A026 /* SceneDelegate.swift */,
-				7D32D5A029773CBA0008A026 /* HabitsViewController.swift */,
+				7D0983AF29844F05009419A7 /* Habits */,
 				7D60FDEB297C107F00E931AB /* Info */,
 				7D60FDE7297C051200E931AB /* HabitsStore.swift */,
 				7D32D5A529773CBA0008A026 /* Assets.xcassets */,
@@ -154,9 +168,11 @@
 				7D60FDE8297C051200E931AB /* HabitsStore.swift in Sources */,
 				7D60FDED297C10A500E931AB /* InfoUIScrollView.swift in Sources */,
 				7D32D5A129773CBA0008A026 /* HabitsViewController.swift in Sources */,
+				7D0983B529844F3C009419A7 /* AddHabirsUIScrollView.swift in Sources */,
 				7D32D59D29773CBA0008A026 /* AppDelegate.swift in Sources */,
 				7D32D59F29773CBA0008A026 /* SceneDelegate.swift in Sources */,
 				7D60FDEA297C064F00E931AB /* InfoViewController.swift in Sources */,
+				7D0983B329844F2E009419A7 /* AddHabitsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

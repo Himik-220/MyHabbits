@@ -17,6 +17,6 @@ class HabitsViewController: UIViewController {
   }
   
   @objc func addHabits() {
-    
+    navigationController?.pushViewController(AddHabitsViewController(), animated: true)
   }
 }
